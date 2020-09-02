@@ -1,7 +1,12 @@
 ember-rdfa-editor-sample-plugin
 ==============================================================================
 
-[Short description of the addon.]
+This is an example plugin for [ember-rdfa-editor](http://github.com/lblod/ember-rdfa-editor). 
+The plugin provides a hint when a user pushes the `suggest annotation` button in the editor and provides the option to annotate the selected text as a dct:description. 
+
+known issues: 
+ - probably broken on empty selection, assumes text is selected
+ - some selections run into an error in ember-rdfa-editor <= 0.40.0. It seems its not always splitting text nodes correctly when required
 
 
 Compatibility

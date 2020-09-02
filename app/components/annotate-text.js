@@ -1,0 +1,1 @@
+export { default } from 'ember-rdfa-editor-sample-plugin/components/annotate-text';
